@@ -1,0 +1,5 @@
+=== RUN   Test
+10s, 34572363 times
+--- PASS: Test (10.00s)
+PASS
+ok  	command-line-arguments	10.006s

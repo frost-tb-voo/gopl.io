@@ -1,0 +1,7 @@
+=== RUN   TestSingle
+--- PASS: TestSingle (3.54s)
+=== RUN   TestParalell
+Waiting..
+--- PASS: TestParalell (1.91s)
+PASS
+ok  	command-line-arguments	6.465s
