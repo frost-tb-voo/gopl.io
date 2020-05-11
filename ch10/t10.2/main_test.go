@@ -3,9 +3,9 @@ package main_test
 import (
 	"testing"
 
-	"gopl.io/ch10/t10.2/archivereader"
-	_ "gopl.io/ch10/t10.2/archivereader/tar"
-	_ "gopl.io/ch10/t10.2/archivereader/zip"
+	"github.com/frost-tb-voo/gopl.io/ch10/t10.2/archivereader"
+	_ "github.com/frost-tb-voo/gopl.io/ch10/t10.2/archivereader/tar"
+	_ "github.com/frost-tb-voo/gopl.io/ch10/t10.2/archivereader/zip"
 )
 
 func TestTarRead(tt *testing.T) {
