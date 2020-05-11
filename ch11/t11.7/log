@@ -1,0 +1,12 @@
+goos: linux
+goarch: amd64
+BenchmarkMapsetAdd-4         	 3649704	       295 ns/op	     200 B/op	       3 allocs/op
+BenchmarkIntsetAdd-4         	 9197610	       125 ns/op	      56 B/op	       3 allocs/op
+BenchmarkMapsetString-4      	  768840	      1576 ns/op	     416 B/op	       9 allocs/op
+BenchmarkIntsetString-4      	 1976283	       609 ns/op	     152 B/op	       6 allocs/op
+BenchmarkMapsetUnionWith-4   	 2249325	       530 ns/op	     200 B/op	       3 allocs/op
+BenchmarkIntsetUnionWith-4   	265160625	         4.36 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMapsetHas-4         	24126332	        49.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntsetHas-4         	1000000000	         0.293 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	_/home/coder/project/ch11/t11.7	10.699s
