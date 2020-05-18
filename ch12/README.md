@@ -134,6 +134,8 @@ Display の処理は Go オブジェクトの marshal (json への変換など) 
 
 12.4 （出力にインデントを追加するプリティプリンタの作成）はやりがいのある練習問題らしい..
 
+- 練習問題 12.7 : ch4/github を参照のこと
+
 ### 12.5. Setting Variables with reflect.Value
 TODO
 
